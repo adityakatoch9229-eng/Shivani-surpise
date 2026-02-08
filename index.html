@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Booster & Proposal for Shivani</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffe6f2;
+            color: #333;
+            text-align: center;
+            padding: 20px;
+        }
+        h1 { color: #ff69b4; }
+        .message { font-size: 1.2em; margin: 20px; }
+        .joke { font-style: italic; color: #666; }
+        .proposal { background-color: #fff; padding: 20px; border-radius: 10px; margin: 20px; box-shadow: 0 0 10px rgba(0,0,0,0.1); }
+        img { max-width: 300px; border-radius: 10px; }
+        button { background-color: #ff69b4; color: white; border: none; padding: 10px 20px; font-size: 1.2em; cursor: pointer; border-radius: 5px; }
+        #proposal-text { display: none; }
+    </style>
+    <script>
+        function revealProposal() {
+            document.getElementById('proposal-text').style.display = 'block';
+        }
+    </script>
+</head>
+<body>
+    <h1>Hey Shivani, Smile! 😊</h1>
+    <div class="message">
+        <p>I know you're upset with your friends right now, but remember: they're your squad for a reason. Let's turn that frown upside down!</p>
+        <p>Here's a little reminder of why you're awesome:</p>
+        <ul>
+            <li>Your laugh lights up the room.</li>
+            <li>You're stronger than you think.</li>
+            <li>Friends come and go, but your vibe is forever.</li>
+        </ul>
+    </div>
+    <div class="joke">
+        <p>Knock knock. Who's there? Boo. Boo who? Don't cry, it's just a joke! 😄</p>
+    </div>
+    <img src="https://via.placeholder.com/300x200/ff69b4/ffffff?text=Cheer+Up!" alt="Cheerful image">
+    
+    <div class="proposal">
+        <h2>But Wait... There's More! 💍</h2>
+        <p>Today is special. Click below to see why.</p>
+        <button onclick="revealProposal()">Reveal the Surprise</button>
+        <div id="proposal-text">
+            <p>Shivani, from the moment I met you, you've been my everything. Through ups and downs, you've been my rock. Will you make me the happiest person and say yes to being my partner forever?</p>
+            <p>Love you endlessly! 💕</p>
+            <img src="https://via.placeholder.com/200x200/ffd700/000000?text=Ring" alt="Proposal ring">
+        </div>
+    </div>
+</body>
+</html>
